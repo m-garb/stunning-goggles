@@ -1,5 +1,6 @@
 {
 	"files.exclude": {
+		"G:/Repo/Unreal/SimpleShooter/.git": true,
 		"G:/Repo/Unreal/SimpleShooter/.vs": true,
 		"G:/Repo/Unreal/SimpleShooter/.vscode": true,
 		"G:/Repo/Unreal/SimpleShooter/Content": true,

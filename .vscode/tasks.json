@@ -542,6 +542,276 @@
 			}
 		},
 		{
+			"label": "SimpleShooter IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Debug",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Debug",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SimpleShooter IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Debug",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"DebugGame",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"DebugGame",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SimpleShooter IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"DebugGame",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Development",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Development",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SimpleShooter IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Development",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Shipping",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Shipping",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SimpleShooter IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Shipping",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Test",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Test",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SimpleShooter IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
+			"label": "SimpleShooter IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SimpleShooter",
+				"IOS",
+				"Test",
+				"G:\\Repo\\Unreal\\SimpleShooter\\SimpleShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Unreal\\UE_4.25"
+			}
+		},
+		{
 			"label": "SimpleShooterEditor Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
